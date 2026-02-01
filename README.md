@@ -40,5 +40,5 @@ A powerful Telegram bot that brings the capabilities of local Large Language Mod
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/TelegramOllamaBot.git
+   git clone https://github.com/Dzhmelyk135/TelegramOllamaBot.git
    cd TelegramOllamaBot
