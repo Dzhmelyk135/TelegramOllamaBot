@@ -1,44 +1,44 @@
-# TelegramOllamaBot
-A telegram bot written in python that can respond to you using a local llm from ollama.
+# 🤖 Telegram Ollama Bot
 
-How to set up:
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-Latest-blue.svg)](https://core.telegram.org/bots/api)
+[![Ollama](https://img.shields.io/badge/Ollama-Compatible-green.svg)](https://ollama.ai/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Put your telegram bot token in the 12th row in the telegram_ollama_bot.py file in <PLACE_TELEGRAM_TOKEN_HERE>
+A powerful Telegram bot that brings the capabilities of local Large Language Models (LLMs) to your chats using Ollama. Chat naturally with AI models running on your own infrastructure!
 
-Put your Ollama base URL in the 13th row in the telegram_ollama_bot.py file in <PLACE_OLLAMA_BASE_URL_HERE>
+## ✨ Features
 
-Put the default ollama model in the 14th row in the telegram_ollama_bot.py file in <PLACE_DEFAULT_MODEL_HERE>
+- 🧠 **Multiple AI Models** - Switch between different Ollama models on the fly
+- 🌍 **Multi-language Support** - Interface available in 6 languages (English, Italiano, Español, Français, Українська, Deutsch)
+- 💭 **Conversational Memory** - Remembers context for natural conversations
+- 👤 **Per-User Settings** - Each user can have their own model and language preferences
+- 📊 **Smart Response Handling** - Automatically splits long messages or sends them as files
+- 🎯 **Optimized for Telegram** - Concise responses perfect for mobile messaging
+- 🔒 **Privacy-First** - Everything runs locally on your infrastructure
 
-Avaiable commands:
+## 📋 Table of Contents
 
-/reset                Wipes the context
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Commands](#commands)
+- [Supported Languages](#supported-languages)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
-/context              Shows the context usage (max 10 messages)
+## 🔧 Requirements
 
-/list                 Lists all ollama models
+- Python 3.8 or higher
+- [Ollama](https://ollama.ai/) installed and running
+- A Telegram Bot Token (get one from [@BotFather](https://t.me/botfather))
+- At least one Ollama model downloaded (e.g., `ollama pull llama3.1`)
 
-/model <model>        Change model
+## 📦 Installation
 
-/language             Lists avaiable languages
-
-/language <language>  Change language (example: /language en, /language it ...)
-
-/config               Shows complete configuration of the bot
-
-
-
-Available languages:
-
-   en - English
-   
-   it - Italiano
-   
-   es - Español
-   
-   fr - Français
-   
-   uk - Українська
-   
-   de - Deutsch
-
-How to use: before running the bot, install the requirements in the "requirements.txt" file using "pip install -r requirements.txt" (you need to be in the right operating folder)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/TelegramOllamaBot.git
+   cd TelegramOllamaBot
